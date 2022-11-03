@@ -10,7 +10,6 @@
 #
 class Enrollment < ApplicationRecord
 
-
     belongs_to :course,
         primary_key: :id,
         foreign_key: :course_id,
